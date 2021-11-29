@@ -2,7 +2,6 @@
 By Bjorn van der Laan
 
 As part of ING's global finance and risk function, we currently building a new data warehouse to provide better access to front-office data for regulatory and strategic purposes.
-
 Fundamental to a data warehouse is it's data model and we were looking for a modelling method that fits our agile way of working, satisfies our performance requirements, and allows us to have a historized view on any piece of data that ever entered.
 Before long, we identified Data Vault modelling as a potential candidate.
 The first thing that I like to do when exploring a concept is to visit my good friend Wikipedia.
@@ -17,7 +16,7 @@ I was happy to hear that our favorite online encyclopedia indeed contains a page
 Judging from these points, the modelling approach could clearly fit our requirements.
 That sounds great, but how does it work?
 
-In this article, we embark on a journey to visit some of Data Vault's main lessons using a simple data model. We start our adventure with a simple data model. Along the way, challenges will arise and we will see how our protagonist Data Vault tackle these. 
+In this article, we embark on a journey to visit some of Data Vault's main lessons using a simple data model. We start our adventure with a simple data model. Along the way, challenges will arise and we will see how our protagonist Data Vault tackle these. The source files for this article are also published on my [GitHub](https://github.com/BjornvdLaan/data-vault-introduction-blog-article).
 
 ## Three lessons of Data Vault
 Below we see the model that we will gradually evolve. The model is displayed as an [Entity-Relationship model](https://en.wikipedia.org/wiki/Entity%E2%80%93relationship_model).
